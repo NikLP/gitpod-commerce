@@ -5,7 +5,7 @@
 // NikLP: best options to start development IMO, change at will.
 
 // The below file is non-default and will enable twig debugging.
-$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/devlocal.services.yml';
 
 $config['system.performance']['css']['preprocess'] = FALSE;
 $config['system.performance']['js']['preprocess'] = FALSE;
