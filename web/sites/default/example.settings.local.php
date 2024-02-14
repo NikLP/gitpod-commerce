@@ -2,7 +2,7 @@
 
 // phpcs:ignoreFile
 
-// NikLP: best options to start development IMO, change at will.
+// NikLP: best options to start development IMO; change at will.
 
 // The below file is non-default and will enable twig debugging.
 $settings['container_yamls'][] = $app_root . '/' . $site_path . '/devlocal.services.yml';
