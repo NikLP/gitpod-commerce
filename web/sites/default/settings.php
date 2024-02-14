@@ -775,6 +775,10 @@ if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 
  * Keep this code block at the end of this file to take full effect.
  */
 
+// Override the DDEV and core setting - better having config out of web root
+// Doing this here means we can import config while not (yet) using the settings.local.php
+ $settings['config_sync_directory'] = '../config/sync';
+
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
