@@ -5,7 +5,7 @@
 // NikLP: best options to start development IMO, change at will.
 
 // The below file is non-default and will enable twig debugging.
-$settings['container_yamls'][] = './devlocal.services.yml';
+$settings['container_yamls'][] = $app_root . '/' . $site_path . '/devlocal.services.yml';
 
 $config['system.performance']['css']['preprocess'] = FALSE;
 $config['system.performance']['js']['preprocess'] = FALSE;
