@@ -1,0 +1,10 @@
+uuid: bab5c6c1-7b4c-4c72-95b8-9f251fec976b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TXBwrT25jhMgNcEWj7LYnMKhrCcrEqiQ_QxyQne-T8E
+id: cklb_title
+label: Title
+revision: 0
+description: 'Title block with additional display for H1 title.'

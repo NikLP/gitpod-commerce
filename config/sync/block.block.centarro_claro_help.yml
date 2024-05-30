@@ -1,0 +1,22 @@
+uuid: 752e0a23-d7e8-46c4-82b1-8df2d8c4ca62
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - centarro_claro
+_core:
+  default_config_hash: 8qSB2cHXvg7V4fqHDgW5PXNSdp5gUQUuKBxQnueNt8Q
+id: centarro_claro_help
+theme: centarro_claro
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
