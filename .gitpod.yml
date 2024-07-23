@@ -1,4 +1,3 @@
-# image: drupalpod/drupalpod-gitpod-base:20240419
 image: ddev/ddev-gitpod-base
 
 # ddev and composer are running as part of the prebuild
