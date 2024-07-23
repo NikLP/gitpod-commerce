@@ -4,11 +4,13 @@ image: ddev/ddev-gitpod-base:20240702
 # when starting a workspace all docker images are ready
 tasks:
   - init: |
+      sudo apt update && sudo apt upgrade -y
       ddev start -y
       ddev composer install
       ddev drush si -y --account-pass=admin --site-name='Drupal Commerce in GitPod'
       ddev drush en -y commerce_demo
     command: |
+      sudo apt update && sudo apt upgrade -y
       ddev start -y
       gp ports await 8080 && gp preview $(gp url 8080)
 
