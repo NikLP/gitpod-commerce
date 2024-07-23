@@ -7,7 +7,7 @@ tasks:
       sudo apt update && sudo apt upgrade -y
       ddev start -y
       ddev composer install
-      ddev drush si -y --account-pass=admin --site-name='Drupal Commerce in GitPod'
+      ddev drush si -y --account-pass=admin --site-name='Drupal Commerce in GitPod' --existing-config --config-folder="../config/sync"
       ddev drush en -y commerce_demo
     command: |
       sudo apt update && sudo apt upgrade -y
