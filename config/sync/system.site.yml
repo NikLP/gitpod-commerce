@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: en
+uuid: e9f37e13-3d1a-4278-9bc8-b353c22a5df4
+name: 'Drupal Commerce in GitPod'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /frontpage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

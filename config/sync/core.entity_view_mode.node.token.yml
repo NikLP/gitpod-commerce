@@ -1,0 +1,11 @@
+uuid: ceaa2800-0940-49e4-b648-b37283748e36
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.token
+label: Token
+description: ''
+targetEntityType: node
+cache: true

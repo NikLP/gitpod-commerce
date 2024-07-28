@@ -1,0 +1,10 @@
+uuid: 9b52ce4c-23d8-4f8d-b0c7-0386d6207aeb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aqyngob856rvY62EL-sbZJqz3gu--VFuWWkQ3_EOcSc
+id: cklb_hero
+label: Hero
+revision: 0
+description: 'Block for adding text with optional Call to Action and Subtitle '

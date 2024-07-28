@@ -1,0 +1,13 @@
+uuid: 68e8d940-61d3-41ee-805b-430da601de8b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: kISxC8OZF04B-IeoXT8POG4cNBZZyhoMZ52xgjq8Kp4
+id: block_content.cklb_small
+label: Small
+description: ''
+targetEntityType: block_content
+cache: true

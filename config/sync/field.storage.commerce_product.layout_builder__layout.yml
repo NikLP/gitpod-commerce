@@ -1,0 +1,21 @@
+uuid: ac259287-d06a-43b1-80f3-fb2d0adb607a
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - layout_builder
+_core:
+  default_config_hash: jDRz3utVePgWdVxd8HjWuQNqFV1qLPNbTsLM4T6w7-w
+id: commerce_product.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: commerce_product
+type: layout_section
+settings: {  }
+module: layout_builder
+locked: true
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
