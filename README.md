@@ -1,5 +1,7 @@
 # GitPod Commerce
 
+[NB GitPod have about-faced on their offering and this way of working is sadly not going to be around much longer]
+
 Install and run a Drupal Commerce Kickstart Demo store in the browser, with a click of a link!
 
 This is a fully-fledged DDEV-based development environment, based on the DDEV/GitPod/DrupalPod/Commerce Quickstart repos.
